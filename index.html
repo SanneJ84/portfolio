@@ -1,66 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Portfolio - Jenna Siitonen</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Bootstrap Icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet" type="text/css" />
-        <!-- SimpleLightbox plugin CSS-->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top py-3" id="mainNav">
-            <div class="container-fluid px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top"></a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <!--<li class="nav-item"><a class="nav-link" href="#about">About me</a></li>-->
-                        <li class="nav-item"><a class="nav-link" href="#portfolio" data-translate="navportfolio">Projektit</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#gallery" data-translate="navgalleria">Galleria</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact" data-translate="navyhteys">Yhteystiedot</a></li>
-                        <li class="nav-item">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Portfolio - Jenna Siitonen</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap Icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
+        rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet"
+        type="text/css" />
+    <!-- SimpleLightbox plugin CSS-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top py-3" id="mainNav">
+        <div class="container-fluid px-4 px-lg-5">
+            <a class="navbar-brand" href="#page-top"></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                    <!--<li class="nav-item"><a class="nav-link" href="#about">About me</a></li>-->
+                    <li class="nav-item"><a class="nav-link" href="#portfolio"
+                            data-translate="navportfolio">Projektit</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery" data-translate="navgalleria">Galleria</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#contact" data-translate="navyhteys">Yhteystiedot</a>
+                    </li>
+                    <li class="nav-item">
                         <select id="languageSelect" onchange="changeLanguage()">
                             <option value="fi">Suomi</option>
                             <option value="en">English</option>
-                          </select>
-                        </li>
-                    </ul>
-                        </div>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead">
+        <div class="container px-4 px-lg-5 h-100 p-5">
+            <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                <div class="col-lg-8">
+                    <h1 class="display-5 text-center mb-5 mt-5">PORTFOLIO</h1>
+                    <hr class="divider" />
                 </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="container px-4 px-lg-5 h-100 p-5">
-                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
-                    <div class="col-lg-8">
-                        <h1 class="display-5 text-center mb-5 mt-5">PORTFOLIO</h1>
-                        <hr class="divider"/>
-                    </div>
-                    <div class="col-lg-8 align-self-baseline">
-                        <p class="text-black mb-5" data-translate="esittely">Hei, olen Jenna, tervetuloa sivuilleni! Tämä portfolio esittelee joitakin projektejani ja saavutuksiani tähän mennessä.
-                            Ensikosketukseni koodaukseen oli vuonna 2022, kun osallistuin alaan liittyvään koulutukseen.
-                            Siitä innostus todella lähti, ja syyskuussa 2023 aloitin opinnot Tieto- ja viestintätekniikassa.
-                            Tavoitteeni on oppia ja kehittyä hyväksi koodariksi ja myös työllistyä alalle.</p>
-                    </div>
+                <div class="col-lg-8 align-self-baseline">
+                    <p class="text-black mb-5" data-translate="esittely">Hei, olen Jenna, tervetuloa sivuilleni! Tämä
+                        portfolio esittelee joitakin projektejani ja saavutuksiani tähän mennessä.
+                        Ensikosketukseni koodaukseen oli vuonna 2022, kun osallistuin alaan liittyvään koulutukseen.
+                        Siitä innostus todella lähti, ja syyskuussa 2023 aloitin opinnot Tieto- ja viestintätekniikassa.
+                        Tavoitteeni on oppia ja kehittyä hyväksi koodariksi ja myös työllistyä alalle.</p>
                 </div>
             </div>
-        </header>
-        <!--About
+        </div>
+    </header>
+    <!--About
         <section class="page-section bg-primary" id="about">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
@@ -73,150 +83,187 @@
                 </div>
             </div>
         </section>-->
-        <!-- Portfolio-->
-        <div id="portfolio">
-            <h1 class="display-2 text-center mb-5 mt-5" style="color: rgb(180, 145, 145);" data-translate="website">VERKKOSIVUT</h1>
-            <div class="container-fluid">
-                <div class="row g-0">
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="imageContainer">
-                            <a href="assets/img/portfolio/moottorilapio_portfolio.pdf" target="_blank">
-                                <img class="img-fluid" src="assets/img/portfolio/thumbnails/näyttökuva(776).png" alt="moottorilapio" />
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="imageContainer">
-                            <a href="assets/img/portfolio/cafesaundi_portfolio.pdf" target="_blank">
-                                <img class="img-fluid" src="assets/img/portfolio/thumbnails/näyttökuva(74)3.png" alt="cafe saundi"/>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="imageContainer">
-                            <a href="assets/img/portfolio/digimuuntamo_portfolio.pdf" target="_blank">
-                                <img class="img-fluid" src="assets/img/portfolio/thumbnails/näyttökuva(811).png" alt="digimuuntamo"/>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="imageContainer">
-                            <a href="assets/img/portfolio/trigenda_portfolio.pdf" target="_blank">
-                                <img class="img-fluid" src="assets/img/portfolio/thumbnails/näyttökuva(990).png" alt="trigenda"/>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>            
-                <h1 class="display-2 text-center mb-5 mt-5" style="color: rgb(180, 145, 145);" data-translate="peliprojekti">PELIPROJEKTIT</h1>
-                <div class="container-fluid p-5 pt-2">
-                    <div class="row g-0">
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="imageContainer p-3">
-                        <a href="https://github.com/SanneJ84/Python-peliprojekti.git" target="_blank" title="Python peliprojekti">
-                            <img class="img-fluid" src="assets/img/Kuvat/robopeli.png" alt="python-peli"/>
-                        </a>
-                        <h2 class="text-center2 pt-2" data-translate="pythongame">PYTHON PELIPROJEKTIT</h2>
-                        <p class="text-center2 pt-2" data-translate="pythongame2">Pieni peli Pygamen avulla jonka tein ohjelmoinnin jatkokurssin päätteeksi. Tavoitteena pelissä
-                            on kerätä kolikoita ja välttää ruudulla liikkuvia hirviöitä. Aina kerättyäsi tietyn määrän kolikoita, pelissä tapahtuu pieni muutos joka
-                            lisää peliin haastetta. Kolikoista kertyy pisteitä ja pelin loputtua ne jäävät näkyviin jotta voit yrittää parantaa tulostasi.</p>
-                </div>
-            </div>
+    <!-- Portfolio-->
+    <div id="portfolio">
+        <h1 class="display-2 text-center mb-5 mt-5" style="color: rgb(180, 145, 145);" data-translate="website">
+            VERKKOSIVUT</h1>
+        <div class="container-fluid">
+            <div class="row g-0">
                 <div class="col-lg-4 col-sm-6">
-                    <div class="imageContainer p-3">
-                    <a href="https://github.com/SanneJ84/hirsipuu-peli.git" target="_blank" title="hirsipuu ryhmätyö">
-                        <img class="img-fluid" src="assets/img/Kuvat/hirsipuu.png" alt="python-peli"/>
-                </a>
-                <h2 class="text-center2 pt-2" data-translate="hangman">HIRSIPUU - PELI</h2>
-                <p class="text-center2 pt-2" data-translate="hangman2">Perinteinen hirsipuu peli. 
-                    Pelissä tietokone arpoo sanalistoista sanan ja pelaajat yrittävät arvata koko sanan tai siinä olevan kirjaimen.
-                    Mikäli pelaaja arvaa sanan ennen kuin hahmo on piirtynyt kokonaan, lisättiin animaatio jossa hahmo karkaa (piirsin hahmon ihan itse <span style='font-size:15px;'>&#128516;</span>).
-                    Peli on ohjelmoitu python kielellä ja käytössä on myös Pygame kirjasto.</p>
+                    <div class="imageContainer">
+                        <a href="assets/img/portfolio/moottorilapio_portfolio.pdf" target="_blank">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/näyttökuva(776).png"
+                                alt="moottorilapio" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="imageContainer">
+                        <a href="assets/img/portfolio/cafesaundi_portfolio.pdf" target="_blank">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/näyttökuva(74)3.png"
+                                alt="cafe saundi" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="imageContainer">
+                        <a href="assets/img/portfolio/digimuuntamo_portfolio.pdf" target="_blank">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/näyttökuva(811).png"
+                                alt="digimuuntamo" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="imageContainer">
+                        <a href="assets/img/portfolio/trigenda_portfolio.pdf" target="_blank">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/näyttökuva(990).png"
+                                alt="trigenda" />
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
-        <!-- gallery-->
-        <div id="gallery">
-        <h1 class="display-2 text-center mb-5 mt-5" style="color: rgb(180, 145, 145);" data-translate="GALLERY">GALLERIA</h1>
+    <h1 class="display-2 text-center mb-5 mt-5" style="color: rgb(180, 145, 145);" data-translate="peliprojekti">
+        PELIPROJEKTIT
+    </h1>
+    <div class="container-fluid p-5 pt-2">
+        <div class="row g-0">
+            <div class="col-lg-4 col-sm-6">
+                <div class="imageContainer p-3 project-card">
+                    <a href="https://github.com/SanneJ84/Python-peliprojekti.git" target="_blank"
+                        title="Python peliprojekti">
+                        <img class="img-fluid" src="assets/img/Kuvat/robopeli.png" alt="python-peli" />
+                    </a>
+                    <h2 class="text-center2 pt-2" data-translate="pythongame">PYTHON PELIPROJEKTIT</h2>
+                    <p class="text-center2 pt-2" data-translate="pythongame2">Pieni peli Pygamen avulla jonka tein
+                        ohjelmoinnin jatkokurssin päätteeksi. Tavoitteena pelissä
+                        on kerätä kolikoita ja välttää ruudulla liikkuvia hirviöitä. Aina kerättyäsi tietyn määrän
+                        kolikoita, pelissä tapahtuu pieni muutos joka
+                        lisää peliin haastetta. Kolikoista kertyy pisteitä ja pelin loputtua ne jäävät näkyviin jotta
+                        voit yrittää parantaa tulostasi.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="imageContainer p-3 project-card">
+                    <a href="https://github.com/SanneJ84/hirsipuu-peli.git" target="_blank" title="hirsipuu ryhmätyö">
+                        <img class="img-fluid" src="assets/img/Kuvat/hirsipuu.png" alt="python-peli" />
+                    </a>
+                    <h2 class="text-center2 pt-2" data-translate="hangman">HIRSIPUU - PELI</h2>
+                    <p class="text-center2 pt-2" data-translate="hangman2">Perinteinen hirsipuu peli.
+                        Pelissä tietokone arpoo sanalistoista sanan ja pelaajat yrittävät arvata koko sanan tai siinä
+                        olevan kirjaimen.
+                        Mikäli pelaaja arvaa sanan ennen kuin hahmo on piirtynyt kokonaan, lisättiin animaatio jossa
+                        hahmo karkaa (piirsin hahmon ihan itse <span style='font-size:15px;'>&#128516;</span>).
+                        Peli on ohjelmoitu python kielellä ja käytössä on myös Pygame kirjasto.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="imageContainer p-3 project-card">
+                    <a href="https://github.com/SanneJ84/hedelmapeli" target="_blank" title="hedelmäpeli">
+                        <img class="img-fluid" src="assets/img/Kuvat/hedelmäpeli.png" alt="hedelmäpeli" />
+                    </a>
+                    <h2 class="text-center2 pt-2" data-translate="hangman">HEDELMÄPELI</h2>
+                    <p class="text-center2 pt-2" data-translate="hangman2">Hedelmäpeli, jossa on tavoitteena saada tiettyjä kuviosarjoja.
+                        Pelin alussa on käytössä rahaa x euroa.
+                        Pelissä on neljä arvottavaa rullaa.
+                        Pelissä voidaan asettaa panos, joka on minimissään 1€.
+                        Kun painetaan Pelaa-painiketta arvotaan rullien paikalle kuvat.
+                        Kun kuvat on arvottu ohjelma kertoo, saadaanko sillä voittoa. 
+                        Jokainen pelikierros kuluttaa panoksen verran peljaalla olevia rahoja. Kierroksen voitoista tulee ilmoittaa pelaajalle ja voitot lisätään pelaajan käytössä olevaan rahamäärään.
+                        Peliä ei voi jatkaa jos panos on suurempi kuin käytössä olevat rahat.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="imageContainer p-3 project-card">
+                    <a href="https://github.com/SanneJ84/Clicker-game" target="_blank" title="Clicker-game">
+                        <img class="img-fluid" src="assets/img/Kuvat/clickergame.png" alt="clicker game" />
+                    </a>
+                    <h2 class="text-center2 pt-2" data-translate="hangman">CLICKER - PELI</h2>
+                    <p class="text-center2 pt-2" data-translate="hangman2"> Clicker-peli jossa pelaaja klikkailee
+                        nappulaa ja kerää pisteitä.
+                        Pelin edetessä pelaajalle avautuu uusia näppäimiä käyttöön joita painamalla pelaaja saa lisättyä
+                        erilaisia esineitä tai asioita peliin.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- gallery-->
+    <div id="gallery">
+        <h1 class="display-2 text-center mb-5 mt-5" style="color: rgb(180, 145, 145);" data-translate="GALLERY">GALLERIA
+        </h1>
         <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="row">
-                            <div class="col-6">
-                                <img src="assets/img/Kuvat/linnanraunio2.jpg" class="d-block w-100" alt="First slide">
-                            </div>
-                            <div class="col-6">
-                                <img src="assets/img/Kuvat/linnanraunio1.jpg" class="d-block w-100" alt="Second slide">
-                            </div>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="assets/img/Kuvat/kajaaninLinnanrauniot1.jpg" class="d-block w-100"
+                                alt="linnanrauniot">
                         </div>
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Kajaanin linnanrauniot</h5>
-                            <p>Kajaani castle ruins</p>
+                        <div class="col-6">
+                            <img src="assets/img/Kuvat/kajaaninLinnanrauniot2.jpg" class="d-block w-100"
+                                alt="linnanrauniot">
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-6">
-                                <img src="assets/img/Kuvat/oulujareposet.jpg" class="d-block w-100" alt="Third slide">
-                            </div>
-                            <div class="col-6">
-                                <img src="assets/img/Kuvat/torniokala.jpg" class="d-block w-100" alt="Fourth slide">
-                            </div>
-                        </div>
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Oulu ja revontulet | Tornion Kojamo-veistos</h5>
-                            <p>Oulu and norhern lights | Kojamo sculpture in Tornio</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-6">
-                                <img src="assets/img/Kuvat/luppiovaara.jpg" class="d-block w-100" alt="Third slide">
-                            </div>
-                            <div class="col-6">
-                                <img src="assets/img/Kuvat/luppiovaara2.jpg" class="d-block w-100" alt="Fourth slide">
-                            </div>
-                        </div>
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Ruotsi - Luppiovaara</h5>
-                            <p>Sweden - Luppiovaara</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-6">
-                                <img src="assets/img/Kuvat/arktikum.jpg" class="d-block w-100" alt="Third slide">
-                            </div>
-                            <div class="col-6">
-                                <img src="assets/img/Kuvat/helmiäispilvet.jpg" class="d-block w-100" alt="Fourth slide">
-                            </div>
-                        </div>
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Rovaniemen Arktikun museo | Helmiäispilvi</h5>
-                            <p>Rovaniemi Arktikun museum | Nacreous clouds</p>
-                        </div>
+                    <div class="carousel-caption d-none d-md-block">
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="assets/img/Kuvat/norja1.jpg" class="d-block w-100" alt="norjan reissu">
+                        </div>
+                        <div class="col-6">
+                            <img src="assets/img/Kuvat/norja2.jpg" class="d-block w-100" alt="norjan reissu">
+                        </div>
+                    </div>
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="assets/img/Kuvat/norja3.jpg" class="d-block w-100" alt="norjan reissu">
+                        </div>
+                        <div class="col-6">
+                            <img src="assets/img/Kuvat/norja7.jpg" class="d-block w-100" alt="norjan reissu">
+                        </div>
+                    </div>
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="assets/img/Kuvat/norja4.jpg" class="d-block w-100" alt="norjan">
+                        </div>
+                        <div class="col-6">
+                            <img src="assets/img/Kuvat/kilp.jarvi.jpg" class="d-block w-100" alt="kilpijärvi">
+                        </div>
+                    </div>
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-                    <!-- Services-->
-        <!--<section class="page-section" id="services">
+    </div>
+    <!-- Services-->
+    <!--<section class="page-section" id="services">
             <div class="container px-4 px-lg-5">
                 <h2 class="text-center mt-0">At Your Service</h2>
                 <hr class="divider" />
@@ -253,41 +300,42 @@
             </div>
             </div>
         </section>-->
-        <!-- Call to action--
+    <!-- Call to action--
         <section class="page-section bg-dark text-white">
             <div class="container px-4 px-lg-5 text-center">
                 <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
                 <a class="btn btn-light btn-xl" href="https://startbootstrap.com/theme/creative/">Download Now!</a>
             </div>
         </section-->
-        <!-- Contact-->
-        <section class="page-section" id="contact">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8 col-xl-6 text-center">
-                        <h2 class="mt-0 text-white" data-translate="get_in_touch">Ota yhteyttä!</h2>
-                        <hr class="divider2" />
-                        <p class="text-white mb-3" data-translate="send_message">Lähetä viesti, niin palaan asiaan mahdollisimman pian!</p>
-                        <div class="text-white mb-3">
+    <!-- Contact-->
+    <section class="page-section" id="contact">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8 col-xl-6 text-center">
+                    <h2 class="mt-0 text-white" data-translate="get_in_touch">Ota yhteyttä!</h2>
+                    <hr class="divider2" />
+                    <p class="text-white mb-3" data-translate="send_message">Lähetä viesti, niin palaan asiaan
+                        mahdollisimman pian!</p>
+                    <div class="text-white mb-3">
                         <p class="bi bi-envelope-open"> siitonenjenna@gmail.com</p>
-                    </div>
                     </div>
                 </div>
             </div>
-        </section>
-                        <!--<p>phone number</p>
+        </div>
+    </section>
+    <!--<p>phone number</p>
                     </div>
                 </div>
                 <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
                     <div class="col-lg-6"-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <!--<form id="contactForm" data-sb-form-api-token="API_TOKEN">
+    <!-- * * * * * * * * * * * * * * *-->
+    <!-- * * SB Forms Contact Form * *-->
+    <!-- * * * * * * * * * * * * * * *-->
+    <!-- This form is pre-integrated with SB Forms.-->
+    <!-- To make this form functional, sign up at-->
+    <!-- https://startbootstrap.com/solution/contact-forms-->
+    <!-- to get an API token!-->
+    <!--<form id="contactForm" data-sb-form-api-token="API_TOKEN">
                             Name input
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
@@ -315,8 +363,8 @@
                             </div>
                             !- Submit success message->
                             -->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted--
+    <!-- This is what your users will see when the form-->
+    <!-- has successfully submitted--
                             <div class="d-none" id="submitSuccessMessage">
                                 <div class="text-center mb-3">
                                     <div class="fw-bolder">Form submission successful!</div>
@@ -327,8 +375,8 @@
                             </div>
                             !- Submit error message->
                             -->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form--
+    <!-- This is what your users will see when there is-->
+    <!-- an error submitting the form--
                             <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                             !- Submit Button-
                             <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Submit</button></div>
@@ -342,31 +390,32 @@
                     </div>
                 </div>
             </div>-->
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-lg-4 text-center mb-5 mb-lg-0">
-                    <a href="#page-top">
-                        <i class="bi-arrow-up-circle fs-2 mb-3 text-muted"></i>
-                    </a>
-                </div>
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-lg-4 text-center mb-5 mb-lg-0">
+            <a href="#page-top">
+                <i class="bi-arrow-up-circle fs-2 mb-3 text-muted"></i>
+            </a>
+        </div>
+    </div>
+    <!-- Footer-->
+    <footer class="container-fluid bg-light py-5">
+        <div class="container-fluid px-4 px-lg-5">
+            <div class="text-center text-muted">
+                &copy; 2024 - Jenna Siitonen
             </div>
-        <!-- Footer-->
-        <footer class="container-fluid bg-light py-5">
-            <div class="container-fluid px-4 px-lg-5">
-                <div class="text-center text-muted">
-                    &copy; 2024 - Jenna Siitonen 
-                </div>
-            </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- SimpleLightbox plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- SimpleLightbox plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+
 </html>

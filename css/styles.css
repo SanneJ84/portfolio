@@ -124,6 +124,11 @@ body {
   overflow: auto;
 }
 
+.peliprojekti_ohje {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
